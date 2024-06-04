@@ -103,7 +103,7 @@ def main():
 
         # Open AI API 키 입력받기
         openai.api_key = st.text_input(label="OPENAI API 키", placeholder="Enter Your API Key", 
-                                       value="sk-proj-dyD2uoM8gkIS2SkYSveHT3BlbkFJ9mLnadFqb0k5Wgu8gNLT", type="password")
+                                       value="", type="password")
         st.markdown("---")
 
         # GPT 모델을 선택하기 위한 라디오 버튼 생성
